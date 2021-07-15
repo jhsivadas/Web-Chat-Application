@@ -1,0 +1,143 @@
+body,html {
+    margin: 0;
+   	background: #79c7c5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #a9dada, #79c7c5); 
+	background: linear-gradient(to right, #a9dada, #79c7c5); 
+
+}
+
+.card {
+    height: 500px;
+    border-radius: 15px ;
+}
+
+.card-body {
+	background: #e9f4f8;
+    overflow-y: auto;
+}
+
+.card-header {
+	background: #f9fbff;
+    border-radius: 15px 15px 0 0;
+    border-bottom: 0;
+}
+
+.card-footer {
+    border-radius: 0 0 15px 15px;
+    border-top: 0;
+}
+
+.user_img {
+    height: 70px;
+    width: 70px;
+    border:1.5px solid #f5f6fa;
+}
+
+
+.img_cont_msg {
+    height: 40px;
+    width: 40px;
+}
+
+.chat-summary {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.chat-summary span {
+    font-size: 20px;
+    color: black;
+}
+
+.chat-summary p {
+    font-size: 10px;
+    color: black;
+}
+
+.msg_container_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    border-radius: 25px;
+    padding: 10px;
+    position: relative;
+    color: black;
+}
+
+.msg_time_send {
+    position: absolute;
+    right:0;
+    bottom: -20px;
+    color: black;
+    font-size: 10px;
+    width: max-content;
+}
+
+.all-input {
+   background: #00B4DB;
+    border:0;
+    color: black;
+    height: 60px;
+    overflow-y: auto;
+}
+
+
+.all-input:focus {
+   box-shadow:none ;
+   outline:0px ;
+}
+
+button {
+    background: black;
+    border:0;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.hide {
+    display:none;
+}
+
+.login {
+    padding: 10px;
+}
+
+.main {
+    margin: 30px auto;
+    height: 80vh;
+    align-items: center;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  vertical-align: middle;
+  margin:3px;
+  border:1.5px solid #f5f6fa;
+}
+
+.login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.row {
+	justify-content: center;
+}
+
+.main row {
+	justify-content: center;
+	width: 40%;
+}
+
+.login {
+	
+}
+
+
